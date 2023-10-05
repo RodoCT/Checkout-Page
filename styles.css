@@ -5,7 +5,7 @@
 }
 
 header{
-    max-width: 1000px;
+    max-width: 1100px;
     display: flex;
     justify-content: flex-start;
     margin: auto;
@@ -23,29 +23,39 @@ header{
 .content{
     display: flex;
     justify-content: space-between;
-    max-width: 1000px;
+    max-width: 1100px;
     margin: auto;
 }
 
-.contact__title{
+.forms{
+    width: 50%;
+}
+
+.form{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.form__title{
     font-family: 'Montserrat';
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
-    color: #333333;
     margin-bottom: 20px;
 }
 
-.form{
-    max-width: 465px;
-    margin-bottom: 50px;
-}
-
-.information{
+.box{
+    display: flex;
+    flex-direction: column;
     margin-bottom: 20px;
 }
 
-.information__description{
+.boxes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box__title{
     font-family: 'Montserrat';
     font-weight: 600;
     font-size: 12px;
@@ -54,13 +64,12 @@ header{
     margin-bottom: 5px;
 }
 
-.icon{
-    padding: 15px 55px;
+.icons{
+    padding: 15px 50px;
     background: url(./images/mail.svg) no-repeat scroll;
     background-size: 24px;
     background-position-x: 10px;
     background-position-y: 50%;
-    width: 350px;
     font-family: 'Montserrat';
     font-weight: 600;
     font-size: 16px;
@@ -79,18 +88,20 @@ header{
 
 .icon__home{
     background-image: url(./images/home.svg);
-}   
+}
 
 .icon__city{
     background-image: url(./images/city.svg);
 }
 
-.info{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 75px;
+.icon__globe{
+    background-image: url(./images/globe.svg);
 }
 
-.icon__info{
-    width: 40%;
+.icon__postal{
+    background-image: url(./images/postal.svg);
+}
+
+.box__half{
+    width: 45%;
 }
