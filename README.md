@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">Recipe page</h1>
+<h1 align="center">Checkout Page</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,15 +8,15 @@
 
 <div align="center">
   <h3>
-    <a href="https://rodoct.github.io/Recipe-Page/">
+    <a href="https://rodoct.github.io/Checkout-Page/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://legacy.devchallenges.io/solutions/FAYNWqrnyIDngD5sU7dN">
+    <a href="https://legacy.devchallenges.io/solutions/Oo6dBeiTpsIPfBfjjAQF">
       Solution
     </a>
     <span> | </span>
-    <a href="https://legacy.devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht">
+    <a href="https://legacy.devchallenges.io/challenges/0J1NxxGhOUYVqihwegfO">
       Challenge
     </a>
   </h3>
