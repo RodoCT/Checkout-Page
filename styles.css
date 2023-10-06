@@ -345,4 +345,12 @@ footer{
     .submit{
         margin-top: 20px;
     }
+
+    .products{
+        width: 100%;
+    }
+
+    .container{
+        width: 100%;
+    }
 }
