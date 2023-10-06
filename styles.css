@@ -76,6 +76,7 @@ header{
     line-height: 19.5px;
     color: #828282;
     border-radius: 10px;
+    border: 1px solid #828282;
 }
 
 .icon__phone{
@@ -104,4 +105,42 @@ header{
 
 .box__half{
     width: 45%;
+}
+
+.checkbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.checkbox__button{
+    width: 21px;
+    height: 21px;
+    margin-right: 10px;
+}
+
+.checkbox__info{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #4F4F4F;
+}
+
+.submit{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.submit__button{
+    color: #FFFFFF;
+    background-color: #F2994A;
+    border: none;
+    width: 166px;
+    height: 54px;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19.5px;
 }
