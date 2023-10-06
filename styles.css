@@ -352,5 +352,19 @@ footer{
 
     .container{
         width: 100%;
+        margin: auto;
+    }
+
+    .product{
+        max-width: 290px;
+    }
+
+    .images{
+        width: 122px;
+        height: 122px;
+    }
+
+    .prices{
+        width: 300px;
     }
 }
